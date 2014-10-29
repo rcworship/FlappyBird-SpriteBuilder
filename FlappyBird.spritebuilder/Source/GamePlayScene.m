@@ -20,7 +20,6 @@
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     // touches the screen
     [character flap];
-    [self addObstacle];
 }
 
 @end
